@@ -1,0 +1,13 @@
+name: 'Anthmmatic Action'
+description: 'My composite action two'
+
+branding:
+  icon: 'award'
+  color: 'blue'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Perform step
+      run: echo "action completed."
+      shell: bash
